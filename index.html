@@ -2,9 +2,164 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="shortcut icon" href="./src/favocon-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Portfolio</title>
 </head>
 <body>
-
+<section class="navbar container">
+    <div class="navbar-wrapper">
+        <img src="./src/logo.png" alt="my-logo" class="navbar-logo">
+        <nav>
+            <ul class="navbar-list">
+                <li class="navbar-item active">Главная</li>
+                <li class="navbar-item">Проекты</li>
+                <li class="navbar-item">Обо мне</li>
+                <li class="navbar-item">Контакты</li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<header class="header container">
+    <img src="./src/memoji.png" width="230" height="212" alt="Luda Zhuleha" class="header-avatar">
+    <div class="header-text">
+        <p class="header-greeting">Привет</p>
+        <h1 class="header-heading"><span class="header-heading-highlight">Я начинающий фронтенд-разработчик.</span><br>
+            Меня зовут Людмила Жулего и я делаю сайты для людей и компаний.</h1>
+        <div class="header-links">
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="" class="social-link">
+                        <img src="./src/github-1.png" alt="" class="social-logo">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link">
+                        <img src="./src/twitter.png" alt="" class="social-logo">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link">
+                        <img src="./src/youtube.png" alt="" class="social-logo">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link">
+                        <img src="./src/book.png" alt="" class="social-logo">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link">
+                        <img src="./src/linkedin.png" alt="" class="social-logo">
+                    </a>
+                </li>
+            </ul>
+            <a href="" class="header-download-cv">
+                <img src="./src/cv-icon.png" alt="icon-cv" class="cv-icon">
+                <span class="cv-text">Скачать Резюме</span>
+            </a>
+        </div>
+    </div>
+</header>
+<section class="projects container">
+   <h2 class="projects-heading">Последние проекты</h2>
+    <div class="projects-cards">
+        <div class="projects-card">
+            <img src="./src/TripHouse.png" width="400" height="250"  alt="project-image" class="projects-card-image">
+            <div class="projects-card-wrapper">
+                <h3 class="project-card-title">Одностраничный сайт</h3>
+                <ul class="tags-list">
+                    <li class="tags-item">
+                        <a href="" class="tag">HTML</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">CSS</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">Git</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">Javascript</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">Figma</a></li>
+                </ul>
+                <p class="projects-text">Одностраничный лэндинг сайта по поиску отелей для путешествий. Поиск реализован
+                    по отелям, а также по другим критериям с использованием стороннего API.</p>
+                <div class="projects-card-buttons">
+                    <a href="" class="projects-card-button">
+                        <img src="./src/code-Icon.png" alt="" class="button-image">
+                        <span class="button-text">Код</span></a>
+                    <a href="" class="projects-card-button">
+                        <img src="./src/demo-Icon.png" alt="" class="button-image">
+                        <span class="button-text">Демо</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="projects-card">
+            <img src="./src/CV-landing.png" width="400" height="180"  alt="project-image" class="projects-card-image">
+            <img src="./src/skills.png" width="350" height="100"  alt="project-image" class="projects-card-image">
+            <div class="projects-card-wrapper">
+                <h3 class="project-card-title">Лэндинг CV</h3>
+                <ul class="tags-list">
+                    <li class="tags-item">
+                        <a href="" class="tag">HTML</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">SASS</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">Git</a></li>
+                    <li class="tags-item">
+                        <a href="" class="tag">Figma</a></li>
+                </ul>
+                <p class="projects-text">Лэндинг Резюме. Реализация стилей с использованием SASS.</p>
+                <div class="projects-card-buttons">
+                    <a href="" class="projects-card-button">
+                        <img src="./src/code-Icon.png" alt="" class="button-image">
+                        <span class="button-text">Код</span></a>
+                    <a href="" class="projects-card-button">
+                        <img src="./src/demo-Icon.png" alt="" class="button-image">
+                        <span class="button-text">Демо</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="developer container">
+    <img src="" alt="photo" class="developer-foto">
+    <div class="developer-text">
+        <h2 class="developer-heading"></h2>
+        <p class="developer-intro"></p>
+        <h3 class="developer-moto"></h3>
+        <p class="developer-skills"></p>
+        <img src="" alt="" class="developer-signature">
+    </div>
+    <h3 class="developer-tools"></h3>
+    <ul class="tags-list">
+        <li class="tags-item">HTML</li>
+        <li class="tags-item">CSS</li>
+        <li class="tags-item">SASS</li>
+        <li class="tags-item">Javascript</li>
+        <li class="tags-item">npm</li>
+        <li class="tags-item">Figma</li>
+        <li class="tags-item">Reactjs</li>
+    </ul>
+</section>
+<section class="form container">
+    <form action="" class="wrapper">
+        <h2 class="form-heading"></h2>
+        <div class="form-wrapper">
+            <label for="username" class="form-username">Имя</label>
+            <input id="username" name="client_name" type="text" class="username">
+            <label for="email" class="form-email">Email</label>
+            <input id="email" name="client_email" type="text" class="email">
+            <label for="message" class="form-message">Сообщение</label>
+            <textarea id="message" name="client_message" class="message"></textarea>
+        </div>
+        <button type="submit" class="header-download-cv send-button">
+        <img src="./src/send-icon.png" alt="icon-cv" class="cv-icon">
+        <span class="cv-text">Отправить</span>
+    </button>
+    </form>
+</section>
+<script src="./js/main.js"></script>
 </body>
 </html>
